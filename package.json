@@ -1,0 +1,22 @@
+{
+  "name": "blog-posts-project",
+  "version": "1.0.0",
+  "description": "blogpost project",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js"
+  },
+  "author": "cody",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
+    "uuid": "^3.3.2"
+  }
+}
